@@ -57,15 +57,21 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Morris.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">adequate</span> experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+<span className="font-bold italic text-lg">Hello, I'm Morris Chiuri Macharia.</span> I am a{" "}
+<span className="font-bold italic text-lg">full-stack developer</span> with a strong foundation in{" "}
+<span className="font-bold italic text-lg">web development</span> and a passion for creating engaging and user-friendly applications. 
+I thrive on building <span className="italic text-lg">dynamic websites and innovative apps</span> that solve real-world problems. 
+My expertise lies in{" "}
+<span className="underline italic text-lg">React and Next.js</span>, where I focus on delivering high-performance solutions 
+that enhance user experience. I am committed to continuous learning and staying updated with the latest technologies to 
+further refine my skills and contribute effectively to any team I join.
+
+
+
       </motion.h1>
 
       <motion.div

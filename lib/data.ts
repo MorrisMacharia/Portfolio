@@ -32,22 +32,42 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Student JKUAT",
-    location: "Nakuru",
+    title: "Diploma in Business Information Technology",
+    location: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)",
     description:
-      "I studied the basics of programming, Databases and creating E-Commerce websites graduating with a diploma in DBIT.",
+      "Studied programming, databases, and web development with a focus on creating E-Commerce websites, graduating with a diploma.",
     icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2021",
+    date: "Jan 2018 - Mar 2019",
   },
   {
-    title: "Graduated bootcamp",
-    location: "Code3Camp",
+    title: "Certificate in Web 3 and Full Stack Software Development",
+    location: "Ngeni Labs, Code 3 Camp",
     description:
-      "I graduated after 6 months of studying,I gained valuable experience as a front-end developer.",
+      "Completed a 6-month bootcamp, gaining valuable experience in front-end development, Web 3 technologies, and full stack software development.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jan - June 2024",
+    date: "Jan - Aug 2024",
   },
- 
+  {
+    title: "Certificate in Computer Packages",
+    location: "Computer Pride, Nairobi",
+    description: "Gained foundational skills in essential computer applications, including word processing, spreadsheets, and presentations.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jan - Feb 2013",
+  },
+  {
+    title: "Secondary Education",
+    location: "Nanyuki High School",
+    description: "Completed high school, obtaining the Kenya Certificate of Secondary Education (K.C.S.E).",
+    icon: React.createElement(LuGraduationCap),
+    date: "2008 - 2011",
+  },
+  {
+    title: "Primary Education",
+    location: "Queen Esther School",
+    description: "Completed primary school, obtaining the Kenya Certificate of Primary Education (K.C.P.E).",
+    icon: React.createElement(LuGraduationCap),
+    date: "1999 - 2007",
+  },
 ] as const;
 
 

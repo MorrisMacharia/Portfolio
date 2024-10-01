@@ -20,6 +20,7 @@
     "eslint-config-next": "13.4.7",
     "framer-motion": "^10.12.17",
     "next": "^14.2.5",
+    "nodemailer": "^6.9.15",
     "postcss": "8.4.24",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -32,6 +33,7 @@
     "typescript": "5.1.5"
   },
   "devDependencies": {
+    "@types/nodemailer": "^6.4.16",
     "@types/react-vertical-timeline-component": "^3.3.3"
   }
 }
